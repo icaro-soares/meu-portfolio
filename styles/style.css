@@ -60,3 +60,32 @@ main {
   padding: 20px;
   border-radius: 8px;
 }
+
+#foto {
+  width: 200px;
+  aspect-ratio: 1/1;
+  object-fit: cover;
+  overflow: hidden;
+  border-radius: 50%;
+  border: 5px solid var(--fundo-card);
+  outline: 5px solid var(--destaque);
+  display: block;
+  margin: auto;
+  margin-bottom: 15px;
+}
+
+#ficha h1 {
+  color: var(--destaque);
+  text-align: center;
+  margin: 15px 0;
+  font-size: 1.7em;
+}
+
+#social {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.3em;
+  margin-top: 15px;;
+  gap: 15px;
+}
